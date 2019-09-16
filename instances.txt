@@ -1,0 +1,18 @@
+Class: Plant
+
+Instances:
+Peppermint
+Calendula
+Purslane
+Christmas Cactus
+Basil
+
+
+Class: Dog
+
+Instances:
+Poodle
+Labrador
+German Shepard
+Chihuahua
+Mutt
