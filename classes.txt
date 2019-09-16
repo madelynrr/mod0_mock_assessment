@@ -1,0 +1,31 @@
+Class = Plant
+
+Attributes:
+roots (string)
+leafColor (string)
+stems (string)
+flowers (string)
+  flowerNumber (integer)
+currentHeight (integer or float)
+
+Methods:
+grow (currentHeight + 1)
+changeLeafColor (changes the leaf color attribute)
+prune (currentHeight - 1)
+pickFlower (flowerNumber -1)
+
+
+Class = Dog
+
+Attributes:
+furColor (string)
+currentAge (integer)
+bark (string or boolean)
+currentWeight (float)
+eyeColor (string)
+
+Methods
+wash (changes color attribute)
+eat (currentWeight + 1.0)
+age (currentAge + 1)
+protect (bark attribute on)
