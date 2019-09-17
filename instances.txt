@@ -1,18 +1,70 @@
 Class: Plant
 
-Instances:
-Peppermint
-Calendula
-Purslane
-Christmas Cactus
-Basil
+Object: Basil
+
+Attributes:
+roots: true
+leafColor: "green"
+leafType: "opposite"
+flowerType: "bilabiate"
+flowerNumber: 10
+currentHeight: 2 feet
+
+Methods:
+grow: (2 feet + 1 = 3 feet)
+changeLeafColor: "brown"
+prune: (2 feet - 1 = 1 foot)
+pickFlower: (10 - 1 = 9)
+
+
+Object: Mint
+
+Attributes:
+roots: true
+leafColor: "yellow"
+leafType: "opposite"
+flowerType: "bilabiate"
+flowerNumber: 20
+currentHeight: 3 feet
+
+Methods:
+grow: (3 feet + 1 = 4 feet)
+changeLeafColor: "green"
+prune: (3 feet - 1 = 2 feet)
+pickFlower: (20 - 1 = 19)
+
 
 
 Class: Dog
 
-Instances:
-Poodle
-Labrador
-German Shepard
-Chihuahua
-Mutt
+Object: Mutt
+
+Attributes:
+furColor: "brown"
+currentAge: 10 years
+currentWeight: 50.0 pounds
+eyeColor: "brown"
+loudBark: off
+
+Methods:
+wash: "white"
+eat: (50.0 pounds + 1 = 51.0 pounds)
+age: (10 years + 1 = 11 years)
+protect: (loudBark attribute on)
+
+
+
+Object: Mini Poodle
+
+Attributes:
+furColor: "white"
+currentAge: 14 years
+currentWeight: 5.0 pounds
+eyeColor: "brown"
+loudBark: off
+
+Methods:
+wash: "whiter"
+eat: (5.0 pounds + 1 = 6.0 pounds)
+age: (14 years + 1 = 15 years)
+protect: (loudBark attribute on)

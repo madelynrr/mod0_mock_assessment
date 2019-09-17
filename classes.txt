@@ -1,11 +1,11 @@
 Class = Plant
 
 Attributes:
-roots (string)
+roots (boolean)
 leafColor (string)
-stems (string)
-flowers (string)
-  flowerNumber (integer)
+leafType (string)
+flowerType (string)
+flowerNumber (integer)
 currentHeight (integer or float)
 
 Methods:
@@ -20,12 +20,12 @@ Class = Dog
 Attributes:
 furColor (string)
 currentAge (integer)
-bark (string or boolean)
 currentWeight (float)
 eyeColor (string)
+loudBark (boolean)
 
 Methods
 wash (changes color attribute)
 eat (currentWeight + 1.0)
 age (currentAge + 1)
-protect (bark attribute on)
+protect (loudBark attribute on)
